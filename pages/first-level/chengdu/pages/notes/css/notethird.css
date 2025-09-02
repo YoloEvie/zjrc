@@ -1,0 +1,36 @@
+.third {
+    width: 1200px;
+    margin: 0 auto;
+}
+hr{
+    margin-bottom: 30px;
+}
+.third .content .pl1,
+.third .content .pl2,
+.third .content .pl3 {
+    position: relative;
+}
+.third .content .pl1 .con,
+.third .content .pl2 .con,
+.third .content .pl3 .con{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.third .content .pl1 .time,
+.third .content .pl2 .time,
+.third .content .pl3 .time {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.third .end{
+    width: 100%;
+    text-align: center;
+    color: #573B3B;
+}

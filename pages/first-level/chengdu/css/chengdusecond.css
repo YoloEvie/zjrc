@@ -1,0 +1,93 @@
+/* 样式清空 */
+*{
+    padding: 0;
+    margin: 0;
+}
+.second{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; 
+}
+.second h6{
+    font-size: 36px;
+    color: #C91F37 ;
+    font-weight: normal;
+    margin-bottom: 20px; 
+}
+.second .more{
+    text-decoration: none;
+    color: #573B3B;
+    font-size: 18px;
+    position: absolute; 
+    right: 0; 
+    top: 40px; 
+}
+.second .more:hover{
+    color: #C91F37;
+}
+.second .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.second .content a .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8{
+    width: 287px;
+    height: 446px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.second .content .pic1 .black, .pic2 .black, .pic3 .black, .pic4 .black, .pic5 .black, .pic6 .black, .pic7 .black, .pic8 .black{
+    width: 269px;
+    height: 97px;
+    background-color: rgb(0, 0, 0 ,0.5);
+    position: absolute;
+    top: 349px;
+    left: 9px;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+    overflow: hidden;
+
+
+}
+.second .content .black:hover p{
+    transition: all 2s;
+    translate: 0 -100px;
+    
+}
+.second .content p{
+    margin: 20px;
+}
+.pic1:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic2:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic3:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic4:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic5:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic6:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic7:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  .pic8:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }

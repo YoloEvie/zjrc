@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指间蓉城</title>
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/indexfirst.css">
+    <link rel="stylesheet" href="./css/indexsecond.css">
+    <link rel="stylesheet" href="./css/indexthird.css">
+    <link rel="stylesheet" href="./css/indexfour.css">
+    <link rel="stylesheet" href="./css/indexfive.css">
+    <link rel="stylesheet" href="./css/indexsix.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/third.js"></script>
+    <script src="./js/five.js"></script>
+
+</head>
+<body>
+  <!-- 顶部 -->
+  <div class="header-content">
+    <img src="./img/logo.png" alt="" class="logo">
+    <ul class="nav-list">
+      <li><a href="./index.html">首页</a></li>
+      <li><a href="./pages/first-level/chengdu/chengdu.html">成都</a></li>
+      <li><a href="./pages/first-level/explore/explore.html">探索</a></li>
+      <li><a href="./pages/first-level/service/service.html">服务</a></li>
+      <li><a href="./pages/first-level/download/download.html">下载</a></li>
+    </ul>
+  </div>
+  <!-- 中间 -->
+  <div class="custom-main">
+    <div class="first">
+      <img src="./img/font.png" class="font" />
+      <img src="./img/wave.png" class="wave" />
+    </div>
+
+    <div class="second">
+      <div class="content">
+        <div class="word">
+          <h3>成都蓉城</h3>
+          <h6>烟火人间慢时光</h6>
+          <p>地处川西平原腹地的成都，自古便有“天府之国”的美誉。
+            作为古蜀文明发源地，孕育了金沙遗址、三星堆等史前奇迹。如今以 “闲适” 为底色：茶馆飘着盖碗茶香，巷陌回荡麻将声响，火锅香气勾人脚步。武侯祠红墙、杜甫草堂、都江堰、青城山等，尽显千年底蕴与道家玄机。这座城市用麻辣滋味与从容节奏，诠释着 “来了就不想离开” 的生活哲学。</p>
+        </div>
+        <div class="video">
+          <video src="./video/chengdu.mp4" controls="controls" autoplay="autoplay" muted="muted" loop="loop"></video>
+        </div>
+        <div class="pic">
+          <img src="./img/panda.png" class="panda">
+          <img src="./img/flower.png"class="flower">
+        </div>
+      </div>
+    </div>
+
+    <div class="third">
+      <div class="title">
+        <img src="./img/icon1.png " class="icon1">
+        <p>景点直通车</p>
+      </div>
+        <div class="content">
+            <!-- 时间线 -->
+            <img src="./img/hu.png "class="hu">
+            <div class="choose">
+              <div  class="category-btn" data-target="con1">
+                <div class="one">
+                  <p>潮流地标</p>
+                </div>
+              </div>
+              <div  class="category-btn" data-target="con2">
+                <div class="two">
+                  <p>文化古迹</p>
+                </div>
+              </div>
+              <div  class="category-btn" data-target="con3">
+                <div class="three">
+                  <p>市井烟火</p>
+                </div>
+              </div>
+              <div  class="category-btn" data-target="con4">
+                <div class="four">
+                  <p>自然山水</p>
+                </div>
+              </div>
+              <div  class="category-btn" data-target="con5">
+                <div class="five">
+                  <p>古镇民俗</p>
+                </div>
+              </div>
+              <div  class="category-btn" data-target="con6">
+                <div class="six">
+                  <p>宗教圣地</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="con con1" id="con1" style="display: block;">
+          <!-- 初始显示东郊记忆 -->
+          <div class="dongjiao" style="display: block;">
+            <img src="./img/东郊记忆 (2).png" alt="">
+            <div class="word">
+              <h3>东郊记忆</h3>
+              <p>成都东郊记忆是由原国营红光电子管厂改造而成的文化创意园区，完美融合了工业遗产与现代潮流。园区完整保留了老厂房的工业风貌，红砖建筑、钢铁桁架、老式管道与涂鸦艺术碰撞出独特的文艺气息。</p>
+            </div>
+            
+          </div>
+        
+          <div class="huanqiu" style="display: none;">
+            <img src="./img/环球中心big.JPG" alt="">
+            <div class="word">
+              <h3>环球中心</h3>
+              <p>新世纪环球中心位于成都高新区，由国际建筑大师扎哈・哈迪德设计，2013 年开业。它以 '流动的旋律' 为理念，造型宛如 '飞行海鸥、漂浮之鲸、起伏海浪' ，是世界最大单体建筑之一。</p>
+            </div>
+          </div>
+        
+          <div class="tianfu" style="display: none;">
+            <img src="./img/天府广场big.jpg" alt="">
+            <div class="word">
+              <h3>天府广场</h3>
+              <p>天府广场位于成都中心，是城市政治、文化核心与交通枢纽。其设计融合古蜀文化（如金沙太阳神鸟、三星堆元素）与现代美学，曾是明代蜀王府旧址，出土过石犀、功德碑等文物，承载成都历史记忆，是市民文化活动与旅游打卡的重要地标。</p>
+            </div>            
+          </div>
+        
+          <div class="taiguli" style="display: none;">
+            <img src="./img/太古里big.jpg" alt="">
+            <div class="word">
+              <h3>太古里</h3>
+              <p>成都太古里地处城市核心，位于锦江区春熙路商圈 ，与千年古刹大慈寺相邻，接壤春熙路商业区。其设计融合川西传统建筑元素与现代风格，青瓦坡顶搭配玻璃幕墙，尽显独特。</p>
+            </div>
+            
+          </div>
+        
+          <div class="chunxilu" style="display: none;">
+            <img src="./img/春熙路big.JPG" alt="">
+            <div class="word">
+              <h3>春熙路</h3>
+              <p>春熙路位于成都锦江区，是成都极具代表性的繁华商业中心 。这里商业氛围浓郁，是成都核心商圈与城市名片，超 2000 家单位和商家入驻。既有 '胡开文''龙抄手' 等百年老店，也有 '王府井''群光' 等大型卖场，写字楼与高档酒店林立。</p>
+            </div>
+            
+          </div>
+      
+          <a href="./pages/jingdian/jingdian.html">查看更多</a>
+          <!-- 图片点击区域 -->
+          <div class="image-group">
+            <img src="./img/东郊记忆.png" alt="东郊记忆" class="click-image" data-target="dongjiao">
+            <img src="./img/环球中心.png" alt="环球中心" class="click-image" data-target="huanqiu">
+            <img src="./img/天府广场.png" alt="天府广场" class="click-image" data-target="tianfu">
+            <img src="./img/太古里.png" alt="太古里" class="click-image" data-target="taiguli">
+            <img src="./img/春熙路.png" alt="春熙路" class="click-image" data-target="chunxilu">
+          </div>
+          <img src="./img/gaotie.png" class="gaotie">
+
+        </div>
+        <div class="con con2" id="con2" style="display: none;">
+            <div class="mingshu" style="display: block;">
+              <img src="./img/second/明蜀王陵big.jpg" alt="">
+              <div class="word">
+                <h3>明蜀王陵</h3>
+                <p>明蜀王陵是明代蜀藩王家族陵墓群，位于四川成都龙泉驿区十陵街道，为全国重点文物保护单位。陵区现存僖王陵、昭王陵等10余座墓葬，以僖王陵地宫最为精美，出土大量珍贵文物，展现了明代亲王陵寝制度与蜀地工艺水平。其建筑融合南北风格，地宫仿王府格局，琉璃构件、石刻仪仗等极具艺术价值，是研究明代藩王葬制与西南历史文化的重要遗存。</p>
+              </div>
+              
+            </div>
+          
+            <div class="dufu" style="display: none;">
+              <img src="./img/second/杜甫草堂big.JPG" alt="">
+              <div class="word">
+                <h3>杜甫草堂</h3>
+                <p>杜甫草堂位于四川成都青羊区，是唐代诗人杜甫流寓成都时的故居，现为全国重点文物保护单位。草堂历经修葺，保留明清建筑风格，主要景点有工部祠、茅屋故居、大雅堂等，园内古木参天，清幽雅致。馆藏大量杜诗版本及文物，展现杜甫生平与诗歌成就，被誉为“中国文学圣地”，是成都重要文化地标。</p>
+              </div>
+            </div>
+          
+            <div class="wuhou" style="display: none;">
+              <img src="./img/second/武侯祠big.JPG" alt="">
+              <div class="word">
+                <h3>武侯祠</h3>
+                <p>武侯祠位于四川成都武侯区，是中国唯一君臣合祀祠庙，纪念蜀汉丞相诸葛亮（武侯）与昭烈帝刘备。始建于西晋，现存建筑为清康熙年间重建，红墙黛瓦，古柏森森。祠内文物丰富，含“三绝碑”、岳飞手书《出师表》等，兼具历史价值与园林之美，是三国文化圣地，全国重点文物保护单位。</p>
+              </div>            
+            </div>
+          
+            <div class="yongling" style="display: none;">
+              <img src="./img/second/永陵博物馆big.jpg" alt="">
+              <div class="word">
+                <h3>永陵博物馆</h3>
+                <p>永陵博物馆位于四川成都金牛区，是中国五代十国时期前蜀开国皇帝王建的陵墓（史称“永陵”），也是全国重点文物保护单位。其最显著特点是地上封土保存完整，地宫结构精美，出土王建石像、玉大带、银器等珍贵文物。墓内二十四乐伎浮雕展现了唐代宫廷乐舞，具有极高艺术价值，是研究五代历史与音乐文化的重要遗址。</p>
+              </div>
+              
+            </div>
+          
+            <div class="jinsha" style="display: none;">
+              <img src="./img/second/金沙遗址big.jpg" alt="">
+              <div class="word">
+                <h3>金沙遗址</h3>
+                <p>金沙遗址位于四川成都青羊区，是商周时期古蜀文明的重要遗址，距今约3000年，被誉为"21世纪中国首个重大考古发现"。遗址出土了太阳神鸟金饰、黄金面具、青铜立人等上万件珍贵文物，其中太阳神鸟金饰被确定为中国文化遗产标志。该遗址与三星堆文化一脉相承，展现了古蜀王国辉煌的文明成就，现建有金沙遗址博物馆，是全国重点文物保护单位。</p>
+              </div>
+            </div>
+        
+            <a href="./pages/jingdian/jingdian.html">查看更多</a>
+            <!-- 图片点击区域 -->
+            <div class="image-group">
+              <img src="./img/second/明蜀王陵.png" alt="明蜀王陵" class="click-image" data-target="mingshu">
+              <img src="./img/second/杜甫草堂.png" alt="杜甫草堂" class="click-image" data-target="dufu">
+              <img src="./img/second/武侯祠.png" alt="武侯祠" class="click-image" data-target="wuhou">
+              <img src="./img/second/永陵博物馆.png" alt="永陵博物馆" class="click-image" data-target="yongling">
+              <img src="./img/second/金沙遗址.png" alt="金沙遗址" class="click-image" data-target="jinsha">
+            </div>
+            <img src="./img/gaotie.png" class="gaotie">
+  
+        </div>
+        <div class="con con3" id="con3" style="display: none;">
+          <div class="sansheng" style="display: block;">
+            <img src="./img/third/三圣乡big.jpg" alt="">
+            <div class="word">
+              <h3>三圣乡</h3>
+              <p>三圣乡位于成都锦江区东南部，是著名的"成都后花园"，以花卉产业和休闲观光闻名。主要包含"五朵金花"景区（幸福梅林、东篱菊园、荷塘月色、江家菜地、花香农居），四季花海不断，兼具川西民居风貌与现代田园风情。这里集生态观光、农家体验、艺术创作于一体，是成都近郊最具特色的乡村旅游目的地，获评国家4A级旅游景区。</p>
+            </div>
+            
+          </div>
+        
+          <div class="dongmen" style="display: none;">
+            <img src="./img/third/东门市井big.jpg" alt="">
+            <div class="word">
+              <h3>东门市井</h3>
+              <p>东门市井位于成都锦江区菱窠西路，毗邻李劼人故居，是以老成都市井文化为主题打造的特色文化商业街区。项目还原了民国时期老成都的街巷格局和建筑风貌，汇集传统美食、手工艺品、茶馆戏台等元素，完美再现"老成都"生活场景。这里不仅是品味地道成都慢生活的体验地，也是展示巴蜀市井文化的重要窗口，已成为成都文旅新地标。</p>
+            </div>
+          </div>
+        
+          <div class="renmin" style="display: none;">
+            <img src="./img/third/人民公园big.jpg" alt="">
+            <div class="word">
+              <h3>人民公园</h3>
+              <p>人民公园位于成都青羊区，始建于1911年，是成都市中心最具代表性的百年老公园。园内保留着辛亥保路运动纪念碑、鹤鸣茶社等历史遗迹，以"百年茶社"和"相亲角"闻名全国。这座开放式城市公园完美融合历史文化与市井生活，既是成都慢生活的缩影，也是体验地道成都茶馆文化的首选之地。</p>
+            </div>            
+          </div>
+        
+          <div class="wangping" style="display: none;">
+            <img src="./img/third/望平街big.jpg" alt="">
+            <div class="word">
+              <h3>望平街</h3>
+              <p>望平街位于成都成华区猛追湾片区，毗邻锦江河畔，是近年来崛起的网红潮流街区。这条百年老街经改造后焕发新生，既保留了老成都的市井烟火气，又融入了现代时尚元素，聚集了网红咖啡店、独立书店、创意餐厅等年轻业态。夜晚的望平街夜市与香香巷美食街相映成趣，成为成都"夜经济"的标杆区域，完美诠释了传统与潮流的碰撞融合。</p>
+            </div>
+            
+          </div>
+        
+          <div class="yulin" style="display: none;">
+            <img src="./img/third/玉林路big.jpg" alt="">
+            <div class="word">
+              <h3>玉林路</h3>
+              <p>玉林路位于成都武侯区，是成都最具烟火气的网红街区之一，因赵雷歌曲《成都》而广为人知。这里既有老成都的市井风貌，又聚集了众多文艺小店、音乐酒吧和地道美食，著名的小酒馆就坐落于此。玉林路完美融合了传统生活气息与现代潮流文化，既是本地人的生活区，也是游客体验成都慢生活的必打卡地，展现了成都包容多元的城市性格。</p>
+            </div>
+            
+          </div>
+      
+          <a href="./pages/jingdian/jingdian.html">查看更多</a>
+          <!-- 图片点击区域 -->
+          <div class="image-group">
+            <img src="./img/third/三圣乡.png" alt="三圣乡" class="click-image" data-target="sansheng">
+            <img src="./img/third/东门市井.png" alt="东门市井" class="click-image" data-target="dongmen">
+            <img src="./img/third/人民公园.png" alt="人民公园" class="click-image" data-target="renmin">
+            <img src="./img/third/望平街.png" alt="望平街" class="click-image" data-target="wangping">
+            <img src="./img/third/玉林路.png" alt="玉林路" class="click-image" data-target="yulin">
+          </div>
+          <img src="./img/gaotie.png" class="gaotie">
+
+        </div>
+        <div class="con con4" id="con4" style="display: none;">
+          <div class="tiantai" style="display: block;">
+            <img src="./img/fourth/天台山big.jpg" alt="">
+            <div class="word">
+              <h3>天台山</h3>
+              <p>天台山位于成都邛崃市，是四川大熊猫栖息地世界自然遗产的重要组成部分，国家AAAA级旅游景区。这座典型的桌状山以"高山流水、奇幽险峻"闻名，拥有亚洲最大萤火虫观赏基地，夏季可观赏到上百万只萤火虫飞舞的壮观景象。景区内森林覆盖率95%，瀑布群、云海、日出等自然景观壮丽，同时保存着南宋石塔、和尚衙门等历史遗迹，是集生态观光、避暑度假、科普教育于一体的综合性景区。</p>
+            </div>
+            
+          </div>
+        
+          <div class="xiling" style="display: none;">
+            <img src="./img/fourth/西岭雪山big.jpg" alt="">
+            <div class="word">
+              <h3>西岭雪山</h3>
+              <p>西岭雪山位于成都大邑县境内，距市区约95公里，是世界自然遗产——四川大熊猫栖息地的重要组成部分。作为成都第一高峰（海拔5364米），景区拥有终年积雪的壮丽景观，形成"窗含西岭千秋雪"的绝美景致。这里是中国南方规模最大、设施最完善的高山滑雪场，冬季可滑雪，夏季可避暑，四季景色各异。景区内原始森林、云海、日出、阴阳界等自然奇观众多，是距特大城市最近的雪山型生态旅游景区。</p>
+            </div>
+          </div>
+        
+          <div class="dujiang" style="display: none;">
+            <img src="./img/fourth/都江堰big.JPG" alt="">
+            <div class="word">
+              <h3>都江堰</h3>
+              <p>都江堰位于成都都江堰市，始建于公元前256年，由秦国蜀郡太守李冰父子主持修建，是世界文化遗产、世界灌溉工程遗产。这座无坝引水的古代水利工程由鱼嘴分水堤、飞沙堰溢洪道、宝瓶口引水口三大主体构成，两千多年来持续发挥着防洪灌溉作用，造就了"天府之国"的富庶。景区内还有二王庙、伏龙观等古迹，是集古代科技智慧、历史文化与自然风光于一体的国家重点文物保护单位。</p>
+            </div>            
+          </div>
+        
+          <div class="qingcheng" style="display: none;">
+            <img src="./img/fourth/青城山big.JPG" alt="">
+            <div class="word">
+              <h3>青城山</h3>
+              <p>青城山位于成都都江堰市，是中国道教发源地之一，世界文化遗产、国家5A级旅游景区。以"青城天下幽"著称，分为前山和后山：前山道教宫观林立，有建福宫、天师洞等著名道观；后山自然风光秀丽，飞瀑流泉遍布。这座道教名山完美融合了宗教文化与自然景观，是成都周边避暑胜地和重要的文化遗产地，与都江堰共同构成"青城山-都江堰"世界文化遗产。</p>
+            </div>
+            
+          </div>
+        
+          <div class="yulin" style="display: none;">
+            <img src="./img/third/青城山big.jpg" alt="">
+            <div class="word">
+              <h3>春熙路</h3>
+              <p>青城山位于成都都江堰市，是中国道教发源地之一，世界文化遗产、国家5A级旅游景区。以"青城天下幽"著称，分为前山和后山：前山道教宫观林立，有建福宫、天师洞等著名道观；后山自然风光秀丽，飞瀑流泉遍布。这座道教名山完美融合了宗教文化与自然景观，是成都周边避暑胜地和重要的文化遗产地，与都江堰共同构成"青城山-都江堰"世界文化遗产。</p>
+            </div>
+            
+          </div>
+      
+          <a href="./pages/jingdian/jingdian.html">查看更多</a>
+          <!-- 图片点击区域 -->
+          <div class="image-group">
+            <img src="./img/fourth/天台山.png" alt="天台山" class="click-image" data-target="tiantai">
+            <img src="./img/fourth/西岭雪山.png" alt="西岭雪山" class="click-image" data-target="xiling">
+            <img src="./img/fourth/都江堰.png" alt="都江堰" class="click-image" data-target="dujiang">
+            <img src="./img/fourth/青城山.png" alt="青城山" class="click-image" data-target="qingcheng">
+          </div>
+          <img src="./img/gaotie.png" class="gaotie">
+        </div>
+        <div class="con con5" id="con5" style="display: none;">
+          <div class="anren" style="display: block;">
+            <img src="./img/five/安仁古镇big.jpg" alt="">
+            <div class="word">
+              <h3>安仁古镇</h3>
+              <p>安仁古镇位于成都大邑县，始建于唐代，是国家5A级旅游景区，以"中国博物馆小镇"著称。古镇完整保存了27座民国时期公馆建筑和40余座明清古建筑，其中刘氏庄园建筑群规模宏大。这里汇聚了建川博物馆聚落等50余座主题博物馆，完美融合了川西民居风貌与近代中西合璧建筑特色，是体验民国风情、了解抗战历史的重要文化地标。</p>
+            </div>
+            
+          </div>
+        
+          <div class="kuanzhai" style="display: none;">
+            <img src="./img/five/宽窄巷子big.jpg" alt="">
+            <div class="word">
+              <h3>宽窄巷子</h3>
+              <p>宽窄巷子位于成都青羊区，由宽巷子、窄巷子、井巷子三条清代老街组成，是成都现存规模较完整的古街区。作为"老成都底片"，这里完美融合了川西民居建筑与北方胡同文化，聚集了传统四合院、精品店铺、地道小吃和特色茶馆。改造后的宽窄巷子既保留了历史风貌，又注入了现代活力，成为体验成都慢生活、感受巴蜀文化的必游之地，被誉为"最成都"的都市会客厅。</p>
+            </div>
+          </div>
+        
+          <div class="luodai" style="display: none;">
+            <img src="./img/five/洛带古镇big.jpg" alt="">
+            <div class="word">
+              <h3>洛带古镇</h3>
+              <p>洛带古镇位于成都龙泉驿区，始建于三国时期，是国家4A级旅游景区，素有"中国西部客家第一镇"之称。古镇完整保存了明清时期的"一街七巷子"格局和大量客家民居建筑，其中广东会馆、江西会馆等移民会馆最具特色。这里不仅是四川客家文化的重要展示地，还以伤心凉粉等客家美食闻名，完美融合了巴蜀风情与客家文化，是成都近郊最具人文特色的古镇之一。</p>
+            </div>            
+          </div>
+        
+          <div class="ginli" style="display: none;">
+            <img src="./img/five/锦里big.jpg" alt="">
+            <div class="word">
+              <h3>锦里</h3>
+              <p>锦里位于成都武侯区武侯祠旁，是成都最具代表性的仿古商业街区，被誉为"西蜀第一街"。这条全长550米的古街以三国文化为底蕴，完美复建了明清风格的川西传统建筑，汇聚了张飞牛肉、三大炮等四川特色小吃和皮影、蜀绣等非物质文化遗产。夜幕下的锦里红灯笼高挂，茶楼酒肆林立，既是体验老成都民俗风情的绝佳去处，也是感受巴蜀市井文化的活态博物馆。</p>
+            </div>
+            
+          </div>
+        
+          <div class="huanglong" style="display: none;">
+            <img src="./img/five/黄龙溪big.jpg" alt="">
+            <div class="word">
+              <h3>春熙路</h3>
+              <p>黄龙溪古镇位于成都双流区，距今已有1700多年历史，是国家4A级旅游景区。古镇以"十古"著称（古街、古寺、古树、古码头等），完整保留了明清时期的川西民居建筑群和"一街三寺庙"的独特格局。穿镇而过的黄龙溪与青石板老街相映成趣，构成了"水在城中流，城在水中建"的灵动景致。这里不仅是成都近郊著名的影视拍摄基地，更是体验川西传统水码头文化的绝佳去处。</p>
+            </div>
+            
+          </div>
+      
+          <a href="./pages/jingdian/jingdian.html">查看更多</a>
+          <!-- 图片点击区域 -->
+          <div class="image-group">
+            <img src="./img/five/安仁古镇.png" alt="安仁古镇" class="click-image" data-target="anren">
+            <img src="./img/five/宽窄巷子.png" alt="宽窄巷子" class="click-image" data-target="kuanzhai">
+            <img src="./img/five/洛带古镇big.png" alt="洛带古镇" class="click-image" data-target="luodai">
+            <img src="./img/five/锦里.png" alt="锦里" class="click-image" data-target="ginli">
+            <img src="./img/five/黄龙溪.png" alt="黄龙溪" class="click-image" data-target="huanglong">
+          </div>
+          <img src="./img/gaotie.png" class="gaotie">
+        </div>
+        <div class="con con6" id="con6" style="display: none;">
+          <div class="dacisi" style="display: block;">
+            <img src="./img/six/大慈寺big.jpg" alt="">
+            <div class="word">
+              <h3>大慈寺</h3>
+              <p>大慈寺位于成都锦江区远洋太古里商圈，始建于魏晋（公元3-4世纪），是成都历史最悠久的佛教寺院之一，被誉为"震旦第一丛林"。寺内保存有玄奘受戒遗址、唐代佛像等珍贵文物，现存建筑为清代重建。这座千年古刹身处繁华商圈却独守清净，形成"寺市同垣"的独特景观，既是成都历史文化的见证者，也是现代都市中难得的禅意空间。</p>
+            </div>
+            
+          </div>
+        
+          <div class="baoguang" style="display: none;">
+            <img src="./img/six/宝光寺big.jpg" alt="">
+            <div class="word">
+              <h3>宝光寺</h3>
+              <p>宝光寺位于成都新都区，始建于东汉，是中国南方"四大佛教丛林"之一，国家4A级旅游景区。寺内保存有唐代舍利塔、清代五百罗汉堂等珍贵文物，尤以"东方斜塔"——十三层宝光塔闻名。这座千年古刹集唐宋以来历代建筑风格于一体，香火鼎盛且文物荟萃，既是川西著名的佛教圣地，也是研究古代建筑艺术的重要实物遗存。</p>
+            </div>
+          </div>
+        
+          <div class="wenshu" style="display: none;">
+            <img src="./img/six/文殊院2big.jpg" alt="">
+            <div class="word">
+              <h3>文殊院</h3>
+              <p>文殊院位于成都青羊区，始建于隋朝，是川西著名的佛教禅林，全国重点佛教寺院。寺院现存建筑为清代重建，保存有玄奘顶骨舍利、千佛和平塔等珍贵佛教文物。这座千年古刹以"空林二圣"（释迦牟尼佛骨舍利和贝叶经）著称，院内古木参天、环境清幽，既是成都市区重要的佛教活动场所，也是体验禅意文化的都市净土，其素斋和禅茶文化尤为闻名。</p>
+            </div>            
+          </div>
+        
+          <div class="qingyang" style="display: none;">
+            <img src="./img/six/青羊宫big.jpg" alt="">
+            <div class="word">
+              <h3>青羊宫</h3>
+              <p>青羊宫位于成都青羊区，始建于唐代，是成都现存最古老、规模最大的道教宫观，全国重点文物保护单位。宫内现存建筑多为清代重建，以八卦亭、三清殿等最具特色，保存有清代《道藏辑要》经版等珍贵文物。这座千年道观以"川西第一道观"著称，既是重要的道教活动场所，也是研究巴蜀道教文化的重要载体，其庙会活动和道教音乐被列入非物质文化遗产名录。</p>
+            </div>
+            
+          </div>
+        
+          <div class="hemin" style="display: none;">
+            <img src="./img/six/鹤鸣山big.jpg" alt="">
+            <div class="word">
+              <h3>鹤鸣山</h3>
+              <p>鹤鸣山位于成都大邑县境内，是中国道教发源地之一，因汉代张道陵在此创立"五斗米道"而被尊为"道教祖庭"。山上现存道观多为明清建筑，以常道观、上清宫最为著名，保留着大量道教文物和古碑刻。这座道教圣山兼具自然与人文景观，其道教音乐被列入国家级非物质文化遗产，与青城山共同构成了巴蜀道教文化的重要发祥地。</p>
+            </div>
+            
+          </div>
+      
+          <a href="./pages/jingdian/jingdian.html">查看更多</a>
+          <!-- 图片点击区域 -->
+          <div class="image-group">
+            <img src="./img/six/大慈寺.png" alt="大慈寺" class="click-image" data-target="dacisi">
+            <img src="./img/six/宝光寺.png" alt="宝光寺" class="click-image" data-target="baoguang">
+            <img src="./img/six/文殊院2.png" alt="文殊院" class="click-image" data-target="wenshu">
+            <img src="./img/six/青羊宫.png" alt="青羊宫" class="click-image" data-target="qingyang">
+            <img src="./img/six/鹤鸣山.png" alt="鹤鸣山" class="click-image" data-target="hemin">
+          </div>
+          <img src="./img/gaotie.png" class="gaotie">
+        </div>
+
+    </div>
+
+    <div class="Fourth">
+      <div class="title">
+        <img src="./img/icon2.png" class="icon2">
+        <p>热门资讯</p>
+      </div>
+      <a href="./pages/hot/hot.html" class="more">查看更多</a>
+        <div class="content">
+            <div class="card">
+                <img src="./img/宽窄巷子.png" alt="">
+                <div class="card-content">
+                  <h6>烟火古巷，热度持续飙升的文旅地标</h6>
+                  <p>在成都这座充满魅力与历史底蕴的城市中，宽窄巷子宛如一颗璀璨的明珠，散发着独特的光芒，始终占据着热门文旅目的地的C位</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/熊猫.png" alt="">
+                <div class="card-content">
+                  <h6>国宝魅力持续释放 —— 新生熊猫宝宝萌动登场</h6>
+                  <p>近期，大熊猫繁育研究基地迎来了一波新生熊猫宝宝的出生潮。这些可爱的熊猫宝宝们毛茸茸的，像一个个圆滚滚的团子，它们或憨态可掬地爬行</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/青城山2.png" alt="">
+                <div class="card-content">
+                  <h6>问道青城山，热度高涨引客来</h6>
+                  <p>“青城天下幽”，成都的青城山景区以其清幽的自然环境、深厚的道教文化和悠久的历史底蕴，成为了众多游客心中的旅游胜地。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/都江堰 (2).png" alt="">
+                <div class="card-content">
+                  <h6>都江堰景区——千年水利焕新彩</h6>
+                  <p>为了更好地弘扬都江堰这一伟大水利工程的文化价值，景区内特别举办了"千年水利·智慧传承"科普展览。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Five">
+      <div class="title">
+        <img src="./img/icon3.png" class="icon3">
+        <p>成都美景</p>
+      </div>
+      <a href="#" class="more">查看更多</a>
+        <div class="content">
+            <div class="pic1">
+              <div class="black">
+                <h2>熊猫塔</h2>
+                <p>成都 339 熊猫塔，屹立于成华区猛追湾街 168 号，高 339 米，为西部第一高塔 。它是城市地标，集观光、娱乐、餐饮于一体，能赏景、玩 VR 等项目，还常举办灯光秀 。</p>
+              </div>
+
+            </div>
+            <div class="pic2">
+              <div class="black">
+                <h2>都江堰</h2>
+                <p>都江堰位于四川成都平原西部的岷江上，始建于秦昭王末年。是李冰父子组织修建的大型水利工程，由分水鱼嘴、飞沙堰、宝瓶口等部分组成，两千多年来一直发挥着防洪灌溉的作用。</p>
+              </div>
+      
+
+            </div>
+            <div class="pic3">
+              <div class="black">
+                <h2>安顺廊桥</h2>
+                <p>安顺廊桥位于成都府河与南河交汇处合江亭旁，横跨锦江。桥长 81 米，宽 23.6 米，为明清风格，2003 年重建。集多种功能于一体，是成都地标，夜景迷人，承载着历史文化与老成都烟火气。</p>
+              </div>
+            </div>
+            <div class="pic4">
+              <div class="black">
+                <h2>雪山</h2>
+                <p>成都雪山美景闻名遐迩，西岭雪山是其代表。它距成都市区不远，主峰大雪塘海拔 5364 米，终年积雪。天晴时，在城市多处可远眺雪山，云雾缭绕间，宛如仙境，令人陶醉。</p>
+              </div>
+            </div>
+            <div class="pic5">
+              <div class="black">
+                <h2>青城山</h2>
+                <p>青城山位于成都都江堰市西南，是邛崃山脉分支。这里林木青翠，诸峰环峙，有 “青城天下幽” 的美誉。它是道教发祥地之一，2000 年被列入《世界遗产名录》，是著名的旅游胜地。</p>
+              </div>
+            </div>
+            <div class="pic6">
+              <div class="black">
+                <h2>武侯祠</h2>
+                <p>成都武侯祠位于武侯祠大街 231 号，占地约 15 万平方米，是全国唯一君臣合祀祠庙。由惠陵、汉昭烈庙等组成，是三国遗迹博物馆，文化底蕴深厚，也是国家一级博物馆。</p>
+              </div>
+            </div>
+            <div class="pic7">
+              <div class="black">
+              <h2>文殊院</h2>
+                <p>文殊院位于成都青羊区，始建于隋大业年间，康熙时重建更名。它是全国佛教重点寺院，建筑为川西古建风格，文物众多，集禅林圣迹、园林古建、朝拜观光等功能于一体，是著名佛教圣地。</p>
+              </div>
+            </div>
+            <div class="pic8">   
+              <div class="black">
+                <h2>杜甫草堂</h2>
+                <p>成都杜甫草堂位于青羊区青华路 37 号，是杜甫流寓成都时的故居。他在此创作 240 余首诗，草堂经多次修葺扩建，现为国家一级博物馆，古韵悠悠，文化价值极高。</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Six">
+      <img src="./img/logo-white.png" class="logo-white">
+      <img src="./img/biaoyu.png" class="biaoyu">
+      <p>版权所有</p>
+    </div>
+  </div>
+
+</body>
+</html>

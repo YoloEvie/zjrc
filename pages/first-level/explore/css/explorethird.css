@@ -1,0 +1,73 @@
+.third{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.third h6{
+    font-size: 36px;
+    color: #C91F37 ;
+    font-weight: normal;
+    margin-bottom: 50px; 
+}
+.third .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third .content a{
+    text-decoration: none;
+}
+.third .content .con1, .con2, .con3{
+    width: 380px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px #ccc;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.third .content .con2{
+    position: relative;
+}
+.third .content .con2 img{
+    position: absolute;
+    top: 200px;
+}
+.third .content .word{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+.third .content h6{
+    font-size: 24px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.third .content p{
+    font-size: 18px;
+    color: #573B3B;
+    width: 270px;
+    line-height: 32px;
+    margin: 0px;
+}
+.third .content .con1 p{
+    width: 200px;
+}
+.third .more{
+    text-decoration: none;
+    color: #573B3B;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+}
+.third .more:hover{
+    color: #C91F37;
+}
+.third .content .con1:hover, .con2:hover, .con3:hover{
+    background-color: rgb(255, 255, 255,0.5);
+    transform: translateY(-10px);
+}

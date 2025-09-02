@@ -1,0 +1,30 @@
+.second{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.second .word{
+    width: 300px;
+    position: absolute;
+}
+.two{
+margin-left: 200px;
+}
+.four{
+margin-left: 200px;
+}
+.ma{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+
+}
+.phone{
+    position: absolute;
+    left: 300px;
+}
+.ip{
+    position: absolute;
+    left: 1000px;
+    top: 450px;
+}

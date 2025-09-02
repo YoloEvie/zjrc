@@ -1,0 +1,63 @@
+.second{
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.second .content{
+    /* background-color: rgb(255, 255, 255,0.8); */
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+.second .content img{
+    margin-left: 30px;
+}
+.second .content .word{
+    width: 430px;
+    font-size: 18px;
+    margin-left: 120px;
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/禹卫书法行书简体优化版.ttf') format('woff2'); 
+    }
+.second .content .word > p:first-child {
+    font-family: 'MyFont';
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center; 
+    width: 100%;    
+    display: block; 
+}
+.second .content .word > p:nth-child(2){
+    margin-bottom: 50px;
+}
+.second .content .word ul li{
+    margin-bottom: 35px;
+}
+.second .content .word ul li p {
+    white-space: pre; 
+}
+.second .order{
+    width: 130px;
+    height: 60px;
+    background-color: #C91F37;
+    box-shadow: 0 8px 5px #b6afb0;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    margin:0px;
+}
+.second .order p:hover{
+    font-size: 40px;
+}
+.second .order p{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}

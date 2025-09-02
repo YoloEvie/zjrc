@@ -1,0 +1,30 @@
+/* first */
+.first {
+  width: 1496.8px;
+  margin: 0 auto;
+  height: calc(100vh - 140px); /* 调整高度为视口高度减去header高度 */
+  max-height: 663px; /* 保留最大高度限制 */
+  background-image: url("../img/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 150px;
+  position: relative;
+  /* margin-top: 10px; */
+  
+}
+
+.font {
+  width: 50%;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: auto;
+  display: block;
+}
+

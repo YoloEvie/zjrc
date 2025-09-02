@@ -1,0 +1,39 @@
+.header-content {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfbf2;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 150px;
+  }
+  
+  .nav-list li {
+    margin-left: 83px;
+    cursor: pointer;
+  }
+  
+  .nav-list li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-list li:nth-child(2) a{
+    color: #eb4848;
+  }
+  .nav-list li a:hover {
+    color: #eb4848;
+    text-decoration: underline;
+  }
+  
+  .logo {
+    width: 162.83px;
+    margin-left: 242px;
+  }

@@ -1,0 +1,18 @@
+body{
+  background-color: #fcfbf2;
+
+}
+.custom-header {
+  height: 140px;
+}
+.custom-main {
+  background-color: #fcfbf2;
+  padding: 5px 0 0 0;
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,p,img,input{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  }

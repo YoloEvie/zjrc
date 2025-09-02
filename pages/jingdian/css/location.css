@@ -1,0 +1,29 @@
+.location {
+    width: 1200px;
+    margin: 0 auto 50px;
+    overflow: hidden; /* 触发BFC清除浮动 */
+}
+.location li{
+    list-style: none;
+    color: #573B3B;
+    float: left;
+    font-size: 18px;
+}
+.location li a{
+    text-decoration: none;
+    color: #573B3B;
+}
+.location li a:hover{
+    color: #C91F37;
+}
+.location li:nth-child(5){
+    display: inline-flex;
+    float: left;
+}
+.location li:nth-child(7){
+    display: inline-flex;
+    float: left;
+}
+.location li summary:hover{
+    color: #C91F37;
+}

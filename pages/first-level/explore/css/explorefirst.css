@@ -1,0 +1,22 @@
+.first {
+  width: 1496.8px;
+  height: calc(100vh - 140px);
+  max-height: 500px;
+  margin: 0 auto;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px; 
+  overflow: hidden; 
+  position: relative;
+}
+
+.wave {
+  max-width: 100%; 
+  width: 1299px;
+  height: 102px;
+  display: block;
+   position: absolute;
+   top: 555px;
+   left: 0;
+}

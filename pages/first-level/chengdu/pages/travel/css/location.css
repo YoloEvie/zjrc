@@ -1,0 +1,18 @@
+.location {
+    width: 1200px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+}
+.location li{
+    list-style: none;
+    color: #573B3B;
+    float: left;
+    font-size: 18px;
+}
+.location li a{
+    text-decoration: none;
+    color: #573B3B;
+}
+.location li a:hover{
+    color: #C91F37;
+}

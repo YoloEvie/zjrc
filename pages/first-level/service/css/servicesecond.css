@@ -1,0 +1,108 @@
+a{
+    text-decoration: none;
+}
+.second{
+    width: 1200px;
+    margin: 0 auto;  
+    position: relative;
+    margin-bottom: 150px;
+}
+.second h6{
+    width: 100%;
+    font-size: 36px;
+    color: #C91F37;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.second .choose{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    margin-right: 10px;
+}
+.second .choose li a{
+    color: #573B3B;
+    font-size: 16px;
+}
+.second .choose li:nth-child(1) a{
+    color: #C91F37;
+    margin-right: 100px;
+}
+.second .choose li:nth-child(2) a{
+    margin-right: 100px;
+}
+.second .content{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    box-shadow: 0px 8px 8px 0px #a8a6a6;
+}
+.second .content .top{
+    background-color: #C91F37;
+    border-radius: 10px 10px 0 0;
+}
+.second .content .top tr td{
+    color: #fff;
+    font-size: 16px;
+}
+.second .content tr td{
+    width: 200px;
+    text-align: center;
+    height: 70px;
+    font-size: 16px;
+}
+.second .content .inner {
+    margin-bottom: 50px;
+}
+.second .content .page{
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.second .content .page div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #a8a6a6;
+    background-color: #fff;
+}
+.second .content .page .one{
+    background-color: #C91F37;
+    color: #fff;
+
+}
+.second .content .page div p{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.second .content .change{
+    width: 300px;
+    margin : 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+.second .content .change div{
+    width: 120px;
+    height: 60px;
+    background-color: #C91F37;
+    border-radius: 10px;
+}
+.second .content .change div p{
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+.second .choose li a:hover{
+    color: #C91F37;
+}
+.second .content .page div:hover{
+    background-color: #C91F37;
+}
+.second .content .change div:hover p{
+    font-size: 24px;
+}

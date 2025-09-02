@@ -1,0 +1,129 @@
+a{
+    text-decoration: none;
+}
+.third{
+    width: 1200px;
+    /* height: 100vh; */
+    margin: 0 auto;
+    position: relative; 
+}
+.third h6{
+    font-size: 36px;
+    color: #C91F37 ;
+    font-weight: normal;
+    margin-bottom: 20px; 
+}
+.third .choose{
+    position: absolute; 
+    right: 0; 
+    top: 40px; 
+    margin-bottom: 20px;
+    display: flex;
+}
+.third .choose li{
+    color: #573B3B;
+}
+.third .choose li:nth-child(1){
+    color: #C91F37;
+}
+.third .choose li:hover{
+    color: #C91F37;
+}
+.third .choose li:nth-child(1), .third .choose li:nth-child(2){
+    margin-right: 67px;
+}
+.third .content .list .part2-1 .title, 
+.third .content .list .part2-2 .title, 
+.third .content .list .part2-3 .title, 
+.third .content .list .part2-4 .title, 
+.third .content .list .part2-5 .title, 
+.third .content .list .part2-6 .title,
+.third .content .list .part2-7 .title{
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 41px;
+}
+.third .content .list .part2-1 .con, 
+.third .content .list .part2-2 .con, 
+.third .content .list .part2-3 .con, 
+.third .content .list .part2-4 .con, 
+.third .content .list .part2-5 .con, 
+.third .content .list .part2-6 .con,
+.third .content .list .part2-7 .con{
+    color: #573B3B;
+    font-size: 18px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+.third .content .list .part2-1, 
+.third .content .list .part2-2, 
+.third .content .list .part2-3, 
+.third .content .list .part2-4, 
+.third .content .list .part2-5, 
+.third .content .list .part2-6,
+.third .content .list .part2-7{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+.third .content .list .part2-1 img,
+.third .content .list .part2-2 img,
+.third .content .list .part2-3 img,
+.third .content .list .part2-4 img,
+.third .content .list .part2-5 img,
+.third .content .list .part2-6 img,
+.third .content .list .part2-7 img{
+    width: 400px;
+    height: 300px;
+}
+.third .content .list .part2-1 .word,
+.third .content .list .part2-2 .word,
+.third .content .list .part2-3 .word,
+.third .content .list .part2-4 .word,
+.third .content .list .part2-5 .word,
+.third .content .list .part2-6 .word,
+.third .content .list .part2-7 .word
+{
+    margin-left: 50px;
+}
+.third .content .list .part2-1 .word ul,
+.third .content .list .part2-2 .word ul,
+.third .content .list .part2-3 .word ul,
+.third .content .list .part2-4 .word ul,
+.third .content .list .part2-5 .word ul,
+.third .content .list .part2-6 .word ul,
+.third .content .list .part2-7 .word ul
+
+{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+.third .content .list .part2-1 .word ul li,
+.third .content .list .part2-2 .word ul li,
+.third .content .list .part2-3 .word ul li,
+.third .content .list .part2-4 .word ul li,
+.third .content .list .part2-5 .word ul li,
+.third .content .list .part2-6 .word ul li,
+.third .content .list .part2-7 .word ul li
+{
+    color: #573B3B;
+    float: left;
+    margin-right: 5px;
+}
+hr{
+    margin-bottom: 40px;
+}
+.third .content a:hover{
+    background-color: rgb(255, 255, 255,0.5);
+
+}
+.third .content .list img:hover{
+    transform: scale(1.1); 
+    transition:  0.3s;
+}
+.third .content .list .word:hover{
+    transform: translateY(-1.2rem);
+}

@@ -1,0 +1,36 @@
+.fourth{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fourth h6{
+    width: 100%;
+    font-size: 36px;
+    color: #C91F37;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fourth .content{
+    width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fourth .content div{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+.fourth .content .call img{
+    width: 100px;
+}
+.fourth .content div img{
+    margin-bottom: 20px;
+}
+.fourth .content div p:nth-child(2){
+    font-size: 24px;
+}
+.fourth .content div p:last-child{
+    font-size: 16px;
+}

@@ -1,0 +1,28 @@
+.first {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+.first .content h3{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: left;
+    text-transform: none;
+    margin-bottom: 50px;
+}
+  .first .content .text {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .first .content .text p {
+    flex: 1; 
+    min-width: 100px;
+  }

@@ -1,0 +1,639 @@
+.third {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.third .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.third .title .icon1 {
+  width: 160.04px;
+  margin: 0;
+}
+
+.third .title p {
+  font-size: 43px;
+  color: #C91F37;
+  letter-spacing: 29px;
+  margin: 0;
+}
+
+.third.content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.third .content .hu {
+  width: 100%;
+  height: auto; 
+  max-width: 1508.53px; 
+  position: absolute;
+  left: 0;
+  top: 290px;
+}
+.choose {
+  position: relative;
+  width: 1200px;
+  height: 230px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.choose:hover{
+  transform: translateY(-10px) ;
+}
+.choose .one {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  border: 1px solid #FFBB00;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.choose .one.normal-size {
+  width: 100px;
+  height: 100px;
+}
+.choose .one {
+  margin-bottom: 0px;
+}
+.choose .two {
+  margin-bottom: 25px;
+}
+
+.choose .three {
+  margin-bottom: 50px;
+}
+
+.choose .four {
+  margin-bottom: 50px;
+}
+
+.choose .five {
+  margin-bottom: 25px;
+}
+
+.choose .six {
+  margin-bottom: 0px;
+}
+
+.choose .two, .choose .three, 
+.choose .four, .choose .five, .choose .six {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #FFBB00;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  background: #FFFFFF
+}
+
+
+.one p, .two p, .three p, .four p, .five p, .six p {
+  width: 50px;
+  color: #000000;
+  font-size: 21px;
+  line-height: 32px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.choose .one.normal-size p {
+  line-height: 78.62px;
+}
+.choose .one.active, 
+.choose .two.active, 
+.choose .three.active, 
+.choose .four.active, 
+.choose .five.active, 
+.choose .six.active {
+  width: 120px;
+  height: 120px;
+  background: #C91F37 !important;
+  color: #FFFFFF !important;
+  border: none !important;
+}
+
+.choose .one.active p, 
+.choose .two.active p, 
+.choose .three.active p, 
+.choose .four.active p, 
+.choose .five.active p, 
+.choose .six.active p {
+  padding-top:25px ;
+  width: 80px;
+  color: #FFFFFF !important;
+  font-size: 30px;
+}
+
+.con {
+  width: 100%;
+  max-width: 1440px;
+  height: 600px;
+  margin: 50px auto 0;
+  background-image: url(../img/bg.png);
+  background-color: rgba(255, 255, 255, 1);
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 垂直居中 */
+  position: relative; 
+}
+.con a{
+  text-decoration: none;
+  color: #573B3B;
+  position: absolute;
+  right: 20px;
+}
+.con a :hover{
+  color: #C91F37;
+}
+/* 潮流地标 */
+.dongjiao, .huanqiu, .tianfu, .taiguli, .chunxilu {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative; /* 确保z-index有效 */
+  z-index: 1; /* 确保内容显示在背景图片上方 */
+}
+.dongjiao[style*="block"],
+.huanqiu[style*="block"],
+.tianfu[style*="block"],
+.taiguli[style*="block"],
+.chunxilu[style*="block"] {
+  display: flex !important;
+}
+.dongjiao img, .huanqiu img, .tianfu img, .taiguli img, .chunxilu img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+.dongjiao p, .huanqiu p, .tianfu p, .taiguli p, .chunxilu p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.dongjiao h3, .huanqiu h3, .tianfu h3, .taiguli h3, .chunxilu h3{
+  color: #C91F37;
+  font-size: 24px;
+}
+
+.mingshu, .dufu, .wuhou, .yongling, .jinsha {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative; /* 确保z-index有效 */
+  z-index: 1; /* 确保内容显示在背景图片上方 */
+}
+.mingshu[style*="block"],
+.dufu[style*="block"],
+.wuhou[style*="block"],
+.yongling[style*="block"],
+.jinsha[style*="block"] {
+  display: flex !important;
+}
+.mingshu img, .dufu img, .wuhou img, .yongling img, .jinsha img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+.mingshu p, .dufu p, .wuhou p, .yongling p, .jinsha p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.mingshu h3, .dufu h3, .wuhou h3, .yongling h3, .jinsha h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+/* 文化古迹内容区域 */
+.con2 .mingshu, 
+.con2 .dufu, 
+.con2 .wuhou, 
+.con2 .yongling, 
+.con2 .jinsha {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.con2 .mingshu[style*="block"],
+.con2 .dufu[style*="block"],
+.con2 .wuhou[style*="block"],
+.con2 .yongling[style*="block"],
+.con2 .jinsha[style*="block"] {
+  display: flex !important;
+}
+
+.con2 .mingshu img, 
+.con2 .dufu img, 
+.con2 .wuhou img, 
+.con2 .yongling img, 
+.con2 .jinsha img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.con2 .mingshu p, 
+.con2 .dufu p, 
+.con2 .wuhou p, 
+.con2 .yongling p, 
+.con2 .jinsha p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con2 .mingshu h3, 
+.con2 .dufu h3, 
+.con2 .wuhou h3, 
+.con2 .yongling h3, 
+.con2 .jinsha h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+.con3 .sansheng, 
+.con3 .dongmen, 
+.con3 .renmin, 
+.con3 .wangping, 
+.con3 .yulin {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.con3 .sansheng[style*="block"],
+.con3 .dongmen[style*="block"],
+.con3 .renmin[style*="block"],
+.con3 .wangping[style*="block"],
+.con3 .yulin[style*="block"] {
+  display: flex !important;
+}
+
+.con3 .sansheng img, 
+.con3 .dongmen img, 
+.con3 .renmin img, 
+.con3 .wangping img, 
+.con3 .yulin img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.con3 .sansheng p, 
+.con3 .dongmen p, 
+.con3 .renmin p, 
+.con3 .wangping p, 
+.con3 .yulin p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con3 .sansheng h3, 
+.con3 .dongmen h3, 
+.con3 .renmin h3, 
+.con3 .wangping h3, 
+.con3 .yulin h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+.con4 .tiantai, 
+.con4 .xiling, 
+.con4 .dujiang, 
+.con4 .qingcheng, 
+.con4 .yulin {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.con4 .tiantai[style*="block"],
+.con4 .xiling[style*="block"],
+.con4 .dujiang[style*="block"],
+.con4 .qingcheng[style*="block"],
+.con4 .yulin[style*="block"] {
+  display: flex !important;
+}
+
+.con4 .tiantai img, 
+.con4 .xiling img, 
+.con4 .dujiang img, 
+.con4 .qingcheng img, 
+.con4 .yulin img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.con4 .tiantai p, 
+.con4 .xiling p, 
+.con4 .dujiang p, 
+.con4 .qingcheng p, 
+.con4 .yulin p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con4 .tiantai h3, 
+.con4 .xiling h3, 
+.con4 .dujiang h3, 
+.con4 .qingcheng h3, 
+.con4 .yulin h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+/* 古镇民俗内容区域 */
+.con5 .anren, 
+.con5 .kuanzhai, 
+.con5 .luodai, 
+.con5 .ginli, 
+.con5 .huanglong {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.con5 .anren[style*="block"],
+.con5 .kuanzhai[style*="block"],
+.con5 .luodai[style*="block"],
+.con5 .ginli[style*="block"],
+.con5 .huanglong[style*="block"] {
+  display: flex !important;
+}
+
+.con5 .anren img, 
+.con5 .kuanzhai img, 
+.con5 .luodai img, 
+.con5 .ginli img, 
+.con5 .huanglong img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.con5 .anren p, 
+.con5 .kuanzhai p, 
+.con5 .luodai p, 
+.con5 .ginli p, 
+.con5 .huanglong p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con5 .anren h3, 
+.con5 .kuanzhai h3, 
+.con5 .luodai h3, 
+.con5 .ginli h3, 
+.con5 .huanglong h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+/* 宗教圣地内容区域 */
+.con6 .dacisi, 
+.con6 .baoguang, 
+.con6 .wenshu, 
+.con6 .qingyang, 
+.con6 .hemin {
+  display: none;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.con6 .dacisi[style*="block"],
+.con6 .baoguang[style*="block"],
+.con6 .wenshu[style*="block"],
+.con6 .qingyang[style*="block"],
+.con6 .hemin[style*="block"] {
+  display: flex !important;
+}
+
+.con6 .dacisi img, 
+.con6 .baoguang img, 
+.con6 .wenshu img, 
+.con6 .qingyang img, 
+.con6 .hemin img {
+  width: 297px;
+  height: 223px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.con6 .dacisi p, 
+.con6 .baoguang p, 
+.con6 .wenshu p, 
+.con6 .qingyang p, 
+.con6 .hemin p {
+  width: 437.55px;
+  flex: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con6 .dacisi h3, 
+.con6 .baoguang h3, 
+.con6 .wenshu h3, 
+.con6 .qingyang h3, 
+.con6 .hemin h3 {
+  color: #C91F37;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: auto; /* 自动宽度，根据内容调整 */
+  margin-top: 0; /* 移除顶部间距 */
+  position: absolute; /* 绝对定位 */
+  bottom: 20px; /* 距离底部20px */
+  right: 20px; /* 距离右侧20px */
+  z-index: 2; /* 确保在其他内容上方 */
+}
+
+.click-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.click-image:hover {
+  transform: translateY(-5px);
+}
+.click-image.active {
+  transform: scale(1.1);
+}
+.con .gaotie{
+  width: 709.95px;
+  height: 428.34px;
+  position: absolute;
+  left: 0;
+  /* top: px; */
+}

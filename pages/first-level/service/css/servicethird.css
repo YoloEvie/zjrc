@@ -1,0 +1,60 @@
+.third{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.third h6{
+    width: 100%;
+    font-size: 36px;
+    color: #C91F37;
+    text-align: center;
+}
+.third .content{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.third .content>div{
+    width: 400px;
+}
+.third .content .weather, .third .content .culture{
+    width: 300px;
+    
+}
+.third .content .time,
+.third .content .card,
+.third .content .weather,
+.third .content .car,
+.third .content .attention,
+.third .content .culture{
+    display: flex;
+    align-items: center;
+}
+.third .content .time img,
+.third .content .card img,
+.third .content .weather img,
+.third .content .car img,
+.third .content .attention img,
+.third .content .culture img{
+    margin-right: 50px;
+}
+.third .content .time p,
+.third .content .card p,
+.third .content .weather p,
+.third .content .car p,
+.third .content .attention p,
+.third .content .culture p{
+    font-size: 16px;
+    width: 150px;
+}
+.third .content .time .title,
+.third .content .card .title,
+.third .content .weather .title,
+.third .content .car .title,
+.third .content .attention .title,
+.third .content .culture .title{
+    font-size: 24px;
+}

@@ -1,0 +1,158 @@
+.second{
+    width: 1200px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    position: relative;
+}
+.second .left .title{
+    width: 300px;
+    margin-left: 50px;
+}
+.second .left .plan{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+.second .left .day1 h3,
+.second .left .day2 h3,
+.second .left .day3 h3{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.second .left img{
+    width: 450px;
+}
+.second .left .day1 img{
+    margin-bottom: 50px;
+}
+.second .left .day1 .plan{
+    margin-bottom: 10px;
+}
+.second .left .day2 img{
+    margin-bottom: 150px;
+}
+.second .left .day3 img{
+    margin-bottom: 120px;
+}
+.second .right{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+.second .right .title{
+    width: 300px;
+    margin-left: 100px;
+
+}
+.second .right .plan{
+    width: 300px;
+    height: 300px;
+    font-size: 16px;
+    margin-left: 100px;
+}
+.second  .right img{
+    width: 450px;
+}
+.second .right .day1 img{
+    margin-bottom: 80px;
+}
+.second .right .day1 .plan1{
+    margin-bottom: 10px;
+}
+.second .right .day1 .plan2{
+    margin-bottom: 150px;
+}
+.second .right .day2 img{
+    margin-bottom: 200px;
+}
+.second .left .title,
+.second .right .title{
+    font-size: 24px;
+}
+
+.second .center{
+    width: 330px;
+    background: url(../img/line.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+}
+.second .center .one{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:110px;
+    margin-top: -25px;
+}
+.second .center .two{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:100px;
+    margin-top: 295px;
+}
+.second .center .three{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:60px;
+    margin-top: 345px;
+
+}
+.second .center .four{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:280px;
+    margin-top: 455px;
+
+}
+.second .center .five{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:10px;
+    margin-top: 325px;
+
+}
+.second .center .six{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:230px;
+    margin-top: 400px;
+
+}
+.second .center .seven{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    border: 1px solid #F2B200;
+    margin-left:110px;
+    margin-top: 270px;
+
+}
+.second .center .one div,
+.second .center .two div,
+.second .center .three div,
+.second .center .four div,
+.second .center .five div,
+.second .center .six div,
+.second .center .seven div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F2B200;
+    margin: 0 auto;
+    /* 左右垂直居中 */
+    margin-top: 10px;
+}

@@ -1,0 +1,20 @@
+.third {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .third .content{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .third .content .part1{
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding-bottom: 0px;
+}
+.third .content img:hover{
+    transform: scale(1.05);
+}

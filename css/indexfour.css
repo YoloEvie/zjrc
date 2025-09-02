@@ -1,0 +1,91 @@
+/* four */
+.Fourth {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 300px;
+  /* margin-bottom: 20px; */
+}
+.Fourth .title {
+  display: flex;
+  flex-direction: row; /* 横向排列 */
+  align-items: center; /* 垂直居中 */
+  gap: 15px; /* 图标与文字间距 */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.Fourth .title .icon2 {
+  width: 58.97px;
+}
+
+.Fourth .title p {
+  font-size: 43px;
+  color: #C91F37;
+  letter-spacing: 29px;
+}
+.Fourth .content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* 允许卡片换行 */
+  width: 100%; /* 撑满父容器宽度 */
+  box-sizing: border-box; /* 确保内边距不影响宽度 */
+  margin-top: 20px;
+}
+
+
+.Fourth .more {
+  align-self: flex-end; /* 右对齐 */
+  margin-right:50px;
+  font-size: 18px;
+  color: #663300;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.more:hover {
+  color: #C91F37; 
+  
+}
+.card {
+  width: calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  /* margin-top: 20px; */
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-content {
+  padding-top: 15px; /* 保持与h6的间距 */
+}
+
+.card h6 {
+  font-size: 18px;
+  line-height: 31px;
+  margin-top: 0; /* 移除顶部margin，改用content的padding */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+  margin: 0; /* 移除默认margin */
+}
+.card:hover{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
